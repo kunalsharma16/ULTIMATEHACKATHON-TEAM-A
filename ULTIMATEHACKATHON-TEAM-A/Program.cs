@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// angad singh :- c0732104
-// Ashwinder singh :- c0725642
-// Gurcharanjit singh :-c0731812
-// Harjeet singh :- c0730468
-// kunal sharma :- c0727250
-// Sohit sharna :- c0730478
+// angad singh :- c0732104//
+// Ashwinder singh :- c0725642//
+// Gurcharanjit singh :-c0731812//
+// Harjeet singh :- c0730468//
+// kunal sharma :- c0727250//
+// Sohit sharna :- c0730478//
 
 namespace ULTIMATEHACKATHON_TEAM_A
 {
