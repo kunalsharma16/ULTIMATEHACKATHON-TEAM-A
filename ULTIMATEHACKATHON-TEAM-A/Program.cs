@@ -40,6 +40,29 @@ namespace ULTIMATEHACKATHON_TEAM_A
                 }
 
             }
+            checkVowels();
+        }
+
+        public static int checkVowels()
+        {
+            int f = 0;
+            string[] vowel = new string[] { "a", "e", "i", "o", "u" };
+            Console.WriteLine("Enter a character");
+            String s = Console.ReadLine();
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (vowel[i] == s.ToLower())
+                {
+                    Console.WriteLine("this character is in the list at" + " position " + (i + 1));
+                    f = i;
+                }
+                else
+                {
+                    Console.WriteLine("not there");
+                    f = -1;
+                }
+            }
+            return f;
         }
     }
 }
